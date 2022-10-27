@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "io.github.sirsalad.resourcepacktimer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ClientPacketListenerMixin",
+    "ClientPackSourceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
