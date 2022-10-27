@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "resourcepacktimer",
+  "version": "${version}",
+
+  "name": "ResourcePackTimer",
+  "description": "Time how long it takes to load a resourcepack",
+  "contact": {
+    "sources": "https://github.com/SirSalad/ResourcepackTimer",
+    "issues": "https://github.com/SirSalad/ResourcepackTimer/issues"
+  },
+  "authors": [
+    {
+      "name": "SirSalad",
+      "contact": {
+        "homepage": "https://github.com/SirSalad/"
+      }
+    }
+  ],
+  "license": "MIT",
+
+  "environment": "client",
+  "mixins": [
+    "resourcepacktimer.mixins.json"
+  ],
+
+  "depends": {
+    "minecraft": ">=1.19"
+  }
+}
